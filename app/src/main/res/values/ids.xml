@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="second_level_button" />
+    <item type="id" name="third_level_button" />
+    <item type="id" name="button" />
+</resources>

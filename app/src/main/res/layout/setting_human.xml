@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/barrier"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCDAA3">
+
+    <!-- 縦方向に左側から100% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical_0_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1.00"/>
+
+    <!-- 縦方向に左側から2% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical_1_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02"/>
+
+    <!-- 縦方向に左側から49% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical_2_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.49"/>
+
+    <!-- 縦方向に左側から51% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical_3_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.51"/>
+
+    <!-- 縦方向に左側から98% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical_4_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98"/>
+
+    <!-- 縦方向に左側から2% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical_5_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.14"/>
+
+    <!-- 縦方向に左側から2% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical_6_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.37"/>
+
+    <!-- 縦方向に左側から2% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical_7_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.63"/>
+
+    <!-- 縦方向に左側から2% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vertical_8_guideline"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.86"/>
+
+    <!-- 横方向に上から15% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontal_0_guideline"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15"/>
+
+    <!-- 横方向に上から25% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontal_1_guideline"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"/>
+
+    <!-- 横方向に上から85% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontal_2_guideline"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.90"/>
+
+    <!-- 横方向に上から25% -->
+    <androidx.constraintlayout.widget.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/horizontal_3_guideline"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1.00"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/horizontal_0_guideline"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/vertical_0_guideline"
+            android:background="#D5D5D5"
+            android:gravity="center"
+            android:text="@string/selection_gender"
+            android:textSize="48sp"
+            app:fontFamily="@font/font_first"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/manname"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:gravity="center"
+            android:text="@string/man_name"
+            android:textSize="36sp"
+            app:fontFamily="@font/font_first"
+            app:layout_constraintBottom_toTopOf="@id/horizontal_1_guideline"
+            app:layout_constraintTop_toTopOf="@id/horizontal_0_guideline"
+            app:layout_constraintLeft_toLeftOf="@id/vertical_5_guideline"
+            app:layout_constraintRight_toLeftOf="@id/vertical_6_guideline"
+            app:layout_constraintVertical_bias="0.16" />
+
+    <ImageButton
+        android:id="@+id/ManButton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/horizontal_2_guideline"
+        app:layout_constraintTop_toTopOf="@id/horizontal_1_guideline"
+        app:layout_constraintLeft_toLeftOf="@id/vertical_1_guideline"
+        app:layout_constraintRight_toLeftOf="@id/vertical_2_guideline"
+        android:background="#3F51B5"
+        android:contentDescription="@null"
+        app:layout_constraintVertical_bias="0.223"
+        app:srcCompat="@drawable/man_face" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/woman_name"
+            android:textSize="36sp"
+            app:fontFamily="@font/font_first"
+            app:layout_constraintHorizontal_bias="0.837"
+            app:layout_constraintBottom_toTopOf="@id/horizontal_1_guideline"
+            app:layout_constraintTop_toTopOf="@id/horizontal_0_guideline"
+            app:layout_constraintLeft_toLeftOf="@id/vertical_7_guideline"
+            app:layout_constraintRight_toLeftOf="@id/vertical_8_guideline"
+            app:layout_constraintVertical_bias="0.158" />
+
+        <ImageButton
+            android:id="@+id/WomanButton"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/horizontal_2_guideline"
+            app:layout_constraintTop_toTopOf="@id/horizontal_1_guideline"
+            app:layout_constraintLeft_toLeftOf="@id/vertical_3_guideline"
+            app:layout_constraintRight_toLeftOf="@id/vertical_4_guideline"
+
+            android:background="#E91E63"
+            android:contentDescription="@null"
+
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/girl_face" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:text="@string/setting_under"
+            android:textSize="24sp"
+            app:fontFamily="@font/font_first"
+            app:layout_constraintBottom_toTopOf="@id/horizontal_3_guideline"
+            app:layout_constraintTop_toTopOf="@id/horizontal_2_guideline"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/vertical_0_guideline"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

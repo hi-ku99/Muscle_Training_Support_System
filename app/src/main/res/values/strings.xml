@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MTSS</string>
+    <string name="start_button">スタート</string>
+    <string name="setting_button">設定</string>
+    <string name="movie_subtitle">上腕二頭筋</string>
+    <string name="movie_subtitle_santoukin">上腕三頭筋</string>
+    <string name="movie_subtitle_chest">胸筋</string>
+    <string name="movie_subtitle_shoulder">肩</string>
+    <string name="movie_subtitle_forearm">前腕</string>
+    <string name="movie_subtitle_hukutyoku">腹直筋</string>
+    <string name="movie_subtitle_hukusya">腹斜筋</string>
+    <string name="movie_subtitle_haikin">背筋</string>
+    <string name="movie_subtitle_denbu">臀部</string>
+    <string name="movie_subtitle_kyakubu">脚部</string>
+    <string name="back_button_movie">戻る</string>
+    <string name="cancel">戻る</string>
+    <string name="ok">OK</string>
+    <string name="dialog_arm_message">腕を拡大させますか？</string>
+    <string name="dialog_arm2_message">上腕二頭筋の動画を見ますか？</string>
+    <string name="dialog_stomach_message">腹部を拡大させますか？</string>
+    <string name="dialog_arm3_message">上腕三頭筋の動画を見ますか？</string>
+    <string name="dialog_front_arm_message">前腕の動画を見ますか？</string>
+    <string name="dialog_shoulder_message">肩の動画を見ますか？</string>
+    <string name="dialog_fukutyoku_message">腹直筋の動画を見ますか？</string>
+    <string name="dialog_fukusya_message">腹斜筋の動画を見ますか？</string>
+    <string name="dialog_leg_message">脚部の動画を見ますか？</string>
+    <string name="dialog_back_message">背中の動画を見ますか？</string>
+    <string name="dialog_chest_message">胸部の動画を見ますか？</string>
+    <string name="dialog_ass_message">臀部の動画を見ますか？</string>
+    <string name="not_dumbbell_item">ダンベルが無い人は →</string>
+    <string name="show_other_dumbbell">表示</string>
+    <string name="man_name">男性</string>
+    <string name="woman_name">女性</string>
+    <string name="selection_gender">性別選択</string>
+    <string name="setting_under">この設定は後から変更できます</string>
+    <string name="slim_body">細マッチョ</string>
+    <string name="gorilla_body">ゴリマッチョ</string>
+    <string name="selection_weight">重量選択</string>
+    <string name="setting_mode">モード選択</string>
+    <string name="setting_end">決定</string>
+    <string name="setting_pet">ダンベルペットボトル</string>
+    <string name="setting_pet1">ダンベルがなくても水を入れたペットボトルで代用できます</string>
+    <string name="setting_pet2">注意点</string>
+    <string name="setting_pet3">水が波打つとやりにくいので満杯まで水を入れる</string>
+    <string name="setting_pet4">真ん中がへこんでいて持ちやすいペットボトルを選ぶ</string>
+
+</resources>
