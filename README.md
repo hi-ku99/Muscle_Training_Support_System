@@ -33,3 +33,9 @@ AndroidStudioで実行してください．
 
 <img src="https://user-images.githubusercontent.com/67993065/213365794-e219417d-6837-4ce6-85b0-a398f1c92160.png" width="400"> <img src="https://user-images.githubusercontent.com/67993065/213365798-2f4a14e3-32de-45a6-bca7-88e8b4c1354e.png" width="400">
 
+### 動画選択画
+
+- 特定の筋トレを複数回こなすことで閲覧可能な筋トレ動画が増える．
+- 動画を閲覧すると☆の数が増えていき，動画を一定数見終わるとレベルアップ（初級→中級→上級）
+<img src=https://user-images.githubusercontent.com/67993065/213366424-14d9e021-6b93-450e-8b2f-d8bbd7460bf7.png width="400"> <img src=https://user-images.githubusercontent.com/67993065/213366430-fa47084b-c97f-4365-83bc-6ff1bac8d0b5.png width="400">
+
