@@ -25,7 +25,10 @@ AndroidStudioで実行してください．
 - ユーザのレベルや目標に合わせた筋トレ方法を提示するために，初期設定を行う．
 
 - **性別**
+<img src="https://user-images.githubusercontent.com/67993065/213362757-00275122-49f9-45d8-be29-f7f1e121c0fe.png" width="30">
 
 - **モード**
+![重量選択](https://user-images.githubusercontent.com/67993065/213362764-c58446af-eafb-4511-8d7e-8ed2326ff1c4.png)
 
 - **ダンベル重量**
+![モード選択](https://user-images.githubusercontent.com/67993065/213362769-490f6433-80df-4b3c-ad0f-e04c292c8131.png)
