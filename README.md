@@ -31,6 +31,5 @@ AndroidStudioで実行してください．
 - 鍛えたい部位をタップすると，タップした部位の筋トレ動画の選択画面へと遷移する．
 - 筋肉の名称ではなく，筋トレ初心者にもわかりやすいよう人体模型を用いて視覚的に鍛えたい部位を選択できように配慮した．
 
-
-
+<img src="https://user-images.githubusercontent.com/67993065/213365794-e219417d-6837-4ce6-85b0-a398f1c92160.png" width="400"> <img src="https://user-images.githubusercontent.com/67993065/213365798-2f4a14e3-32de-45a6-bca7-88e8b4c1354e.png" width="400">
 
