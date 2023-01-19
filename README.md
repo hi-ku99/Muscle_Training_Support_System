@@ -24,7 +24,7 @@ AndroidStudioで実行してください．
 
 - ユーザのレベルや目標に合わせた筋トレ方法を提示するために，初期設定を行う．
 
-<img src="https://user-images.githubusercontent.com/67993065/213362757-00275122-49f9-45d8-be29-f7f1e121c0fe.png" width="330"> <img src="https://user-images.githubusercontent.com/67993065/213362764-c58446af-eafb-4511-8d7e-8ed2326ff1c4.png" width="330"> <img src="https://user-images.githubusercontent.com/67993065/213362769-490f6433-80df-4b3c-ad0f-e04c292c8131.png" width="330">
+<img src="https://user-images.githubusercontent.com/67993065/213366789-d05be50d-8ebc-4b94-bbc9-41f1f42a466e.png" width="330"> <img src="https://user-images.githubusercontent.com/67993065/213366798-cbebb482-8362-4457-8a0f-d3b01edd59f9.png" width="330"> <img src="https://user-images.githubusercontent.com/67993065/213366799-01052f1a-6da7-4365-9ee3-283ad93ac3eb.png" width="330">
 
 ### 部位選択画面
 
